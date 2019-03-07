@@ -1,0 +1,638 @@
+*{
+    
+box-sizing: border-box;
+
+}
+body{
+
+margin: 0px;
+padding: 0px;
+background: #ddd;
+
+}
+
+
+
+
+.hed{
+    
+    position: fixed;
+    width: 100%;
+    /* background-color: rgba(f, f,f,0.5) */
+}
+
+.trust {
+    
+    padding-left: 20px;
+    color: #f00
+}
+
+
+.imgg{
+
+background-image: url(../mi/Africa-Egypt-and-the-Nile-Pyraminds-MH.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height:600px ;
+
+}
+
+.p1{
+
+text-align: center;
+font-size: 40px;
+padding-top: 250px; 
+/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+font-family: 'Lobster', cursive;
+color:#000
+
+}
+
+
+.new{
+
+
+width:100%;
+height:450px ;
+text-align: center;
+padding:100px ;
+background: #DDD;
+
+}
+
+.pp1{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+}
+
+.p2{
+
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    
+
+}
+
+
+.pt1{
+
+border-radius: 5px;
+border-style: none;
+background: #FFF;
+width: 150px;
+height:60px;
+font-size: 20px;
+border: 1px solid green ;
+color:green;
+
+}
+
+.pt1:hover{
+
+background: green;
+color: #fff;
+
+}
+
+
+.container{
+display: flex;
+margin: 90px auto;
+height: 700px;
+padding-top: 50px;
+border: 1 solid gray;
+text-align: center;
+
+
+
+}
+
+
+.container .name p{
+
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    
+
+}
+
+
+
+.container .day{
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Charmonman', cursive;
+    
+    }
+    
+    
+.container .pris{
+    
+        font-size: 25px;
+        text-align:right ;
+        color: green;
+    
+    
+    }
+    
+.container .book{
+        border-style: none;
+        background: #fff;
+        width: 150px;
+        height:60px;
+        font-size: 20px;
+        border: 1px solid green ;
+        color:green;
+
+        border-radius: 5px;
+    
+}
+    
+    
+.container .book:hover{
+    
+    
+        background: green;
+        color: #fff;
+    
+}
+
+
+
+.row{
+height: 425px;
+flex: 1;
+margin: 15px 0px 15px 0px;
+/* box-shadow: 10px 10px; */
+
+
+
+
+
+}
+
+.container{
+   display: flex;
+    margin: 0px 0px 0px 90px;
+    height: 700px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.container .name{
+    padding-bottom: 15px;
+}
+    
+.container .name p{
+
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+       
+
+    
+}
+    
+    
+.container .day{
+font-size: 25px;
+text-align: left;
+font-family: 'Charmonman', cursive;
+padding-right: 10px;
+display:block;
+}
+
+
+.container .pris{
+
+    font-size: 25px;
+    text-align:right ;
+    color: green;
+    padding-left: 10px;
+    display: block;
+
+
+}
+
+.container .book{
+    border-style: none;
+    background: #fff;
+    width: 150px;
+    height:60px;
+    font-size: 20px;
+    border: 1px solid green ;
+    color:green;
+    border-radius: 5px;
+
+
+}
+
+
+.container .book:hover{
+
+
+    background: green;
+    color: #fff;
+
+}
+
+
+
+/*the end fo offer*/
+
+
+/* about us*/
+
+.About{
+
+width: 100%;
+height: 300px;
+background: gray;
+
+}
+
+
+.About .us{
+
+text-align: left;
+font-size: 50px;
+color: #fff;
+padding: 60px 0px 0px 50px; 
+
+
+}
+.About .us:hover{
+    color:green;
+    cursor: pointer;
+}
+
+.About .moor{
+
+text-align: left;
+padding: 20px 0px 0px 250px ;
+font-size: 35px;
+
+}
+
+
+
+.About .button1{
+    
+    
+    padding-left: 650px ;
+
+}
+
+.About .button1 .click{
+    border-style: none;
+    background:green ;
+    width: 150px;
+    height:60px;
+    font-size: 20px;
+    border: 1px solid green ;
+    color:white;
+    border-radius: 5px;
+    
+    cursor: pointer;
+
+
+}
+
+.About .click:hover{
+    
+    background: #fff;
+    color: green;
+
+
+}
+
+
+.About .click .p{
+
+padding: 20px;
+
+}
+
+
+
+
+
+.aaa{
+
+width: 100%;
+height: 300px;
+background:#000;
+
+
+}
+
+
+.aaa .h2{
+
+    color: green;
+    padding: 50px;
+    font-size: 50px;
+}
+
+
+.aaa ul{
+
+    list-style: none;
+    text-decoration-line: none;
+
+
+}
+
+
+.aaa ul :hover{
+
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+
+
+
+}
+
+
+.Copyright{
+
+    width: 100%;
+    height: 100px;
+    background: grey;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-size: 20px
+}
+
+/* medical bart */
+
+
+    
+.imggg{
+    
+    background-image: url(../mi/p0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:600px ;
+    
+    }
+    
+    .p11{
+    
+    text-align: center;
+    font-size: 40px;
+    padding-top: 250px; 
+    font-family: 'Lobster', cursive;
+    color:#000
+    
+    }
+    
+    
+    .new{
+    
+    
+    width:100%;
+    height:450px ;
+    text-align: center;
+    padding:100px ;
+    background: #DDD;
+    
+    }
+    
+    .pp1{
+        font-family: 'Lobster', cursive;
+        font-size: 60px;
+    }
+    
+    .p22{
+    
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+        
+    
+    }
+    
+    
+    .pt1{
+    
+    border-radius: 5px;
+    border-style: none;
+    background: #FFF;
+    width: 150px;
+    height:60px;
+    font-size: 20px;
+    border: 1px solid green ;
+    color:green;
+    
+    }
+    
+    .pt1:hover{
+    
+    background: green;
+    color: #fff;
+    
+    }
+    
+    
+    
+    /*the end fo offer*/
+    
+    
+    /* about us*/
+    
+    .About{
+    
+    width: 100%;
+    height: 300px;
+    background: gray;
+    margin-top: 25px;
+    
+    }
+    
+    
+    .About .us{
+    
+    text-align: left;
+    font-size: 50px;
+    color: #fff;
+    padding: 60px 0px 0px 50px; 
+    
+    
+    }
+    
+    .About .moor{
+    
+    text-align: left;
+    padding: 20px 0px 0px 250px ;
+    font-size: 35px;
+    
+    }
+    
+    
+    
+    .About .button{
+        
+        
+        padding-left: 650px ;
+    
+    }
+    
+    .About .button .click{
+        border-style: none;
+        background: green;
+        width: 150px;
+        height:60px;
+        font-size: 20px;
+        border: 1px solid green ;
+        color:white;
+        border-radius: 5px;
+    
+    
+    }
+    
+    .About .click:hover{
+        
+        background: #fff;
+        color: green;
+    
+    
+    }
+    
+    
+    .About .click .p{
+    
+    padding: 20px;
+    
+    }
+    
+    
+    
+    
+    
+    .aaa{
+    
+    width: 100%;
+    height: 300px;
+    background:#000;
+    
+    
+    }
+    
+    
+    .aaa .h2{
+    
+        color: green;
+        padding: 50px;
+        font-size: 50px;
+    }
+    
+    
+    .aaa ul{
+    
+        list-style: none;
+        text-decoration-line: none;
+    
+    
+    }
+    
+    
+    .aaa ul :hover{
+    
+        list-style: none;
+        color: #fff;
+        text-decoration: none;
+    
+    
+    
+    }
+    
+    
+    .Copyright{
+    
+        width: 100%;
+        height: 100px;
+        background: grey;
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+        font-size: 20px
+    }
+    
+    
+    
+    /* style bart */
+    
+
+.row > div {
+        border: 1px solid #ddd;
+        padding-bottom: 15px;
+        border-radius: 25px;
+}
+    
+.test.alert.alert-primary {
+        font-size: 15px;
+}
+    
+.test {
+        font-size: 50px
+}
+    
+.imgs{
+       
+width: 100%;
+height: 450px;
+        
+}
+
+
+/* projact bart */
+
+
+.img2{
+    
+    height: 100%;
+    width: 100%;
+    background: url(../mi/4k-wallpaper-action-adventure-312105.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5px;
+        
+    
+}
+
+/* 
+.navbar {
+    
+    margin-top: 10px ;
+    width: 900px ;
+border-radius: 25px;
+margin-left:15% ; 
+
+}
+*/
+    
+
+.navbar-brand{
+    
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+
+.button3{
+text-align: center;
+  margin: 250px auto
+}
+
+
+
+.img2{
+height:606px ;
+background-size:cover; 
+
+}
+
+
+/************************************ About brt ar/en *****************************************/
